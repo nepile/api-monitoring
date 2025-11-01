@@ -3,6 +3,7 @@ module github.com/nepile/api-monitoring
 go 1.25.3
 
 require (
+	github.com/google/uuid v1.6.0
 	github.com/spf13/viper v1.21.0
 	gorm.io/driver/postgres v1.6.0
 	gorm.io/gorm v1.31.0
